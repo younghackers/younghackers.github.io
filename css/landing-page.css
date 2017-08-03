@@ -1,0 +1,438 @@
+/*
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,sans-serif;
+    font-weight: 700;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.leadnobold {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nlead {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #2e2d2d;
+    background-color: #2e2d2d;
+    background: url(../img/everyoneAtLHD2.jpg) no-repeat center center;
+/*    background: url(../img/everyoneAtLHD2015.jpg) no-repeat center center;*/
+    background-size: 100%;
+    background-position: center;
+    background-attachment: center;
+    overflow: hidden;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    /*background-color: #2e2d2d;*/
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #a9a9a9;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    background-color: #2e2d2d;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+.navbar {
+    background-color: #EAEAEA;
+    overflow: hidden;
+}
+
+.logo {
+    height: 15px;
+    width: 16px;
+    margin-right: 4px;
+    display: inline-block;
+    background-image: url(../img/yhlogohead.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.title {
+    color: #FFF;
+    
+    -webkit-transition: all 250ms ease-out;
+    -moz-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    -o-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+}
+
+.description {
+    margin-top: 0.2em;
+    font-size: 2em;
+    color: #FFF;
+    
+    -webkit-transition: all 250ms ease-out;
+    -moz-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    -o-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+}
+
+.btn {
+    background-color: #FFF;/*#FFFFB3;/*#ededed;*/
+    border-color: #FFF;/*#d2d2d2;*/
+    color: #000;
+
+    -webkit-transition: all 250ms ease-out;
+    -moz-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    -o-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+}
+.title:hover {
+    color: #cc99ff;
+}
+.description:hover {
+    color: #cc99ff;
+}
+.btn:hover {
+    background-color: #FFFFB3;
+    border-color: #FFF;
+}
+
+.oimg{
+  padding: 1px;
+}
+
+#tabs-min { 
+    background: transparent; 
+    border: none; 
+} 
+#tabs-min .ui-widget-header { 
+    background: transparent; 
+    border: none; 
+    border-bottom: 1px solid #c0c0c0; 
+    -moz-border-radius: 0px; 
+    -webkit-border-radius: 0px; 
+    border-radius: 0px; 
+} 
+#tabs-min .ui-tabs-nav .ui-state-default { 
+    background: transparent; 
+    border: none;
+} 
+
+#tabs-min .ui-tabs-nav {
+    text-align: center;
+}
+
+#tabs-min .ui-tabs-nav li{
+    display: inline-block; 
+    float: none; 
+    top: 0px; 
+    margin: 0em; 
+    padding-bottom: 0px; 
+}
+
+#tabs-min .ui-tabs-nav .ui-state-active { 
+    background: transparent url(../img/uiTabsArrowTLarge.png) no-repeat bottom center; 
+    border: none; 
+} 
+#tabs-min .ui-tabs-nav .ui-state-default a { 
+    color: #c0c0c0; 
+    font-weight: normal;
+} 
+
+#tabs-min .ui-tabs-nav .ui-state-active a { 
+    color: #7858A4; 
+    font-weight: bold;
+}
+
+/*#tabs-min .ui-tabs-nav .ui-state-hover a { 
+    color: #FFFFB3; 
+    font-weight: bold;
+}
+
+#tabs-min .ui-tabs-nav .ui-state-focus a { 
+    color: #FFFFB3; 
+    font-weight: bold;
+}*/
+
+#tabTitle{
+    font-size: 24px;
+}
+
+.services {
+    color: #514E5A;
+    background-color: #f5f5f5;
+    padding-bottom: 6em;
+}
+.services .info {
+    margin-bottom: 6em;
+}
+.services .picture {
+    /*margin-left: 0;*/
+}
+.services h3 {
+    text-align: left;
+    font-size: 23px;
+}
+.services h2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 45px;
+}
+.services img {
+    height: 100%;
+    width: 90%;
+}
+.service-item{
+  margin-left: 1em !important;
+  margin-right: 1em !important;
+  padding-bottom: 3em;
+}
+.service-item h4 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 27px;
+}
+.service-item p {
+    font-size: 17px;
+    text-align: left;
+}
+.who {
+    background-color: #DFDFDF !important;
+    overflow: hidden;
+    padding-bottom: 0em !important;
+}
+.who .section-heading {
+    text-align: center;
+    color: #333333;
+}
+.who h2 {
+    font-size: 20px;
+}
+.co {
+    width: 50% !important;
+}
+.spons {
+    overflow: hidden;
+    background-color: #f5f5f5;
+}
+.spons .section-heading {
+    text-align: center;
+    color: #514E5A;
+}
+.spons .thumbnail {
+    border: none;
+    background-color: transparent; 
+}
+.col-xs-6 {
+    width: 25%;
+}
+.thumb{
+    margin: 0px;
+}
+.thumb-b{
+    margin: 5px;
+    width:22%;
+    left: 15px;
+}
+.thumb-g{
+    position: relative;
+    margin: 5px;
+    left: 15px;
+    width: 22%;
+    text-align: center;
+}
+.thumb-g1{
+    position: relative;
+    left: 4%;
+    margin: 5px;
+    width: 24%;
+}
+
+#squareLogos1 {
+    text-align: center;
+}
+
+a.right {
+   margin-right: 0.5em;
+  font-size: 3em;
+}
+footer {
+    overflow: hidden;
+}
+a {
+    color: #7858A4;
+
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+}
+a :hover{
+  color: #514E5A;
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+    font-size: 45px !important;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #EAEAEA;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+
+@media screen and (max-width: 550px) {
+    .intro-header {
+        background-size: auto 100% !important;
+    }
+    .network-name {
+        font-size: 9px !important;
+    }
+}
+@media screen and (max-width: 700px) {
+    .col-xs-6 {
+        width: 50%;
+    }
+}
+
+#alumnus {
+    padding-bottom: 40px;
+}
